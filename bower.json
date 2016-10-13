@@ -1,0 +1,39 @@
+{
+    "name": "pip-webui-split",
+    "version": "1.0.5",
+    "description": "Split layouts for Pip.WebUI",
+    "main": "",
+    "authors": [
+        {
+            "name": "Sergey Seroukhov",
+            "email": "seroukhov@gmail.com"
+        },
+        {
+            "name": "Alexey Dvoikin",
+            "email": "94dvoikin@gmail.com"
+        },
+        {
+            "name": "Kate Negrienko",
+            "email": "katya@negrienko.com"
+        }
+    ],
+    "license": "MIT",
+    "keywords": [
+        "pip",
+        "webui",
+        "split"
+    ],
+    "homepage": "https://github.com/pip-webui/pip-webui-split",
+    "ignore": [
+        ".gitignore",
+        "node_modules",
+        "bower_components",
+        "src",
+        "tests",
+        "samples",
+        "scripts",
+        "build.*",
+        "gulpfile.js",
+        "karma.conf.js"
+    ]
+}
