@@ -1,9 +1,8 @@
-# <img src="https://github.com/pip-webui/pip-webui/raw/master/doc/Logo.png" alt="Pip.WebUI Logo" style="max-width:30%"> <br/> Split layouts
+# <img src="https://github.com/pip-webui/pip-webui/raw/master/doc/Logo.png" alt="Pip.WebUI Logo" style="max-width:30%"> <br/> Split View Layout
 
 ![](https://img.shields.io/badge/license-MIT-blue.svg)
 
-**Split View layout** is the most complex layout type. It can be helpful to organize complex hierarchical content. As user drills down the content, it slides to the right. 
-Going to the top of the hierarchy slides the content to the left. To simplify navigation this content integrates with breadcrumb in **Appbar**
+**Split View** is a layout to organize complex hierarchical content. It lets users to drilldown through content while animating movement from panels from left to right and back. To simplify navigation Split View enables breadcrumb in **Appbar**
 
 <a href="https://github.com/pip-webui/pip-webui-split/raw/master/doc/images/img-split-view-layout.png" style="border: 3px ridge #c8d2df; margin: 0 auto; display: inline-block">
     <img src="https://github.com/pip-webui/pip-webui-split/raw/master/doc/images/img-split-view-layout.png"/>
