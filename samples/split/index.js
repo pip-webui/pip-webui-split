@@ -8,7 +8,7 @@
 
     var thisModule = angular.module('app', [
         'ui.router', 'ngMaterial', 'ngMessages', 'pipAppBar', 'pipTranslate', 'pipLayout', 'ngAnimate',
-        'pipState', 'pipCore', 'pipTool', 'pipAppBar', 'pipTabs'
+        'pipState', 'pipCore', 'pipTool', 'pipAppBar', 'pipTabs', 'pipSplit'
     ]);
 
     thisModule.config(

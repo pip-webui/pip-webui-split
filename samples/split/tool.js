@@ -6,7 +6,7 @@
 (function (angular) {
     'use strict';
 
-    var thisModule = angular.module('pipTool', ['pipTool.View']);
+    var thisModule = angular.module('pipTool', ['pipTool.View', 'pipSplit']);
 
     thisModule.config(
         function ($stateProvider, pipSplitProvider, $mdIconProvider) {
