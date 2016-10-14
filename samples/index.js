@@ -12,8 +12,9 @@
     ]);
 
     thisModule.config(
-        function ($urlRouterProvider) {
+        function ($urlRouterProvider, $mdIconProvider) {
             $urlRouterProvider.otherwise('/tool');
+            $mdIconProvider.iconSet('icons', 'images/icons.svg', 512);
         }
     );
 
