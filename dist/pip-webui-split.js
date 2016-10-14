@@ -1,20 +1,4 @@
 /**
- * @file Registration of all application split
- * @copyright Digital Living Software Corp. 2014-2016
- */
-
-/* global angular */
-
-(function () {
-    'use strict';
-
-    angular.module('pipSplit', [
-        'pipLayout.Split'
-    ]);
-
-})();
-
-/**
  * @file Split layout
  * @copyright Digital Living Software Corp. 2014-2015
  */
@@ -24,7 +8,7 @@
 (function () {
     'use strict';
 
-    var thisModule = angular.module('pipLayout.Split', []);
+    var thisModule = angular.module('pipSplit', []);
 
     thisModule.run( ['$rootScope', 'pipSplit', function($rootScope, pipSplit) {
         // Intercept routes
