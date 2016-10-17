@@ -7,8 +7,12 @@
     'use strict';
 
     var thisModule = angular.module('app', [
-        'ui.router', 'ngMaterial', 'ngMessages', 'pipAppBar', 'pipTranslate', 'pipLayout', 'ngAnimate',
-        'pipState', 'pipServices', 'pipTool', 'pipAppBar', 'pipTabs', 'pipSplit'
+        'ui.router', 'ngMaterial', 
+        'ngMessages', 'ngAnimate', 
+        'pipAppBar', 'pipTranslate', 
+        'pipLayout', 
+        'pipState', 
+        'pipServices', 'pipTool', 'pipTabs', 'pipSplit'
     ]);
 
     thisModule.config(
