@@ -9,11 +9,6 @@ pip-tabs md-toolbar{
 .w-stretch {
   width: 100% !important;
 }
-.pip-pic {
-  margin-right: 16px;
-  height: 40px;
-  width: 40px;
-}
 
 .p24-flex {
   padding: 24px !important;
@@ -36,9 +31,9 @@ pip-tabs md-toolbar{
 
 .position-right {
   position: absolute;
-  top: 0;
+  top: 24px;
   left: none;
-  right: 0;
+  right: 16px;
   bottom: none;
 }
 
@@ -54,6 +49,13 @@ pip-tabs md-toolbar{
 }
 .lm0 {
 	margin-left: 0px!important;
+}
+
+.lp0 {
+	padding-left: 0px!important;
+}
+.rp0 {
+	padding-right: 0px!important;
 }
 .pip-no-border {
   -webkit-border-radius: 0px;
