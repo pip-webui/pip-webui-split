@@ -17,6 +17,7 @@
         $scope.onSwipeRight = onSwipeRight;
 
         // Configure application header
+        /*
         pipAppBar.showMenuNavIcon();
         pipAppBar.showTitleBreadcrumb([
             {
@@ -43,7 +44,7 @@
             {title: $scope.selectedItem.title}
         ]);
         pipAppBar.showLocalActions([], []);
-
+        */
         $scope.$on('pipWindowResized', onWindowResized);
 
         return;
