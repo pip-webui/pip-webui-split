@@ -28,7 +28,7 @@
 
         function onSearch(search) {
             $scope.search = search;
-            pipAppBar.updateSearchCriteria(search);
+            //pipAppBar.updateSearchCriteria(search);
 
             selectItems();
             updateUrl();

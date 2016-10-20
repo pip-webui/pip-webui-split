@@ -15,9 +15,10 @@
         $scope.selected.itemCollection = $scope.selectedItem.sub2;
 
         // Configure application header
+        /*
         pipAppBar.showTitleBreadcrumb([{title: 'Tool name', click: toList}, {title: $scope.selectedItem.title}]);
         pipAppBar.showMenuNavIcon();
-        pipAppBar.showLocalActions([], []);
+        pipAppBar.showLocalActions([], []);*/
 
         $scope.onSub1Click = onSub1Click;
         $scope.onSub2Click = onSub2Click;

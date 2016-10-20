@@ -14,7 +14,7 @@
         $scope.parentItem = $scope.selectedItem || {};
         $scope.selected.itemCollection = $scope.selectedItem.sub2;
         $scope.selectItem($state.params.sub1_id || $scope.selected.itemCollection[0].id, $scope.itemCollection);
-
+/*
         // Configure application header
         pipAppBar.showTitleBreadcrumb([
             {title: 'Tool name', click: toList},
@@ -28,7 +28,8 @@
         ]);
         pipAppBar.showMenuNavIcon();
         pipAppBar.showLocalActions([], []);
-
+*/
+        
         $scope.onItemSelect = onItemSelect;
         $scope.onSwipeRight = onSwipeRight;
         $scope.onSwipeLeft = onSwipeLeft;

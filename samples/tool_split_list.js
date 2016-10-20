@@ -11,6 +11,7 @@
     thisModule.controller('ToolSplitListController',
         function ($scope, $rootScope, $state, pipAppBar, $location, pipCollections, $mdMedia) {
             // Configure application header
+            /*
             pipAppBar.showMenuNavIcon();
             pipAppBar.showTitleText('Tool Name');
             pipAppBar.showLocalActions([
@@ -22,7 +23,8 @@
             ], []);
             pipAppBar.showSearch($scope.onSearch);
             pipAppBar.updateSearchCriteria($scope.search);
-
+            */
+            
             $scope.itemId = $state.params.id;
             $scope.selected.itemId = $scope.itemId;
             $scope.selected.navId = $state.params.nav_id ? parseInt($state.params.nav_id) : $scope.selected.navId || 0;
