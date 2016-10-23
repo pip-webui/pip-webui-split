@@ -11,7 +11,6 @@
         'ngMessages', 'ngAnimate', 
         'pipAppBar', 'pipTranslate', 
         'pipLayout', 
-        'pipState', 
         'pipServices', 'pipTool', 'pipTabs', 'pipSplit'
     ]);
 
