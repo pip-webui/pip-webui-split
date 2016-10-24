@@ -34,7 +34,7 @@
 
     });
 
-    thisModule.provider('pipSplit', function() {
+    thisModule.provider('pipSplit', function(): any {
         var transitionSequences = [];
 
         this.addTransitionSequence = addTransitionSequence;
