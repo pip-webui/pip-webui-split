@@ -1,15 +1,8 @@
-/**
- * @file Split layout
- * @copyright Digital Living Software Corp. 2014-2015
- */
-/* global $, angular */
 (function () {
     'use strict';
     var thisModule = angular.module('pipSplit', []);
     thisModule.run(['$rootScope', 'pipSplit', function ($rootScope, pipSplit) {
-        // Intercept routes
         $rootScope.$on('$stateChangeStart', function (event, toState, toParams, fromState, fromParams) {
-            // Split animation
             var splitElements = $('.pip-split');
             if (splitElements.length > 0) {
                 splitElements.removeClass('pip-transition-forward');
@@ -34,7 +27,6 @@
             };
         };
         return;
-        //----------------------------
         function addTransitionSequence(sequence) {
             if (!_.isArray(sequence) || sequence.length == 0) {
                 throw new Error('Transition sequence must be an array of state names');
