@@ -1,13 +1,16 @@
 module.exports = {
     module: {
         name: 'pipSplit',
-        styles: 'split'
+        styles: 'split',
+        export: 'pip'
     },
     build: {
-        js: true,
-        ts: true,
+        js: false,
+        ts: false,
+	    tsd: true,
+	    bundle: true,
         html: false,
-        css: true,
+        less: true,
         lib: true,
         images: true,
         dist: false
