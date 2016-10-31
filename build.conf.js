@@ -2,7 +2,7 @@ module.exports = {
     module: {
         name: 'pipSplit',
         styles: 'split',
-        export: 'pip',
+        export: 'pip.split',
         standalone: 'pip.split'
     },
     build: {
